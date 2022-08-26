@@ -7,11 +7,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @EnableAutoConfiguration
 public class Main {
-    @RequestMapping("/")
-    String home() {
-        return "Mi priner API ANIBAL DAVID PANAMEÑO TORRES";
-    }
-    
+
     @RequestMapping("/prueba")
     String home2() {
         return "Hello World - v4!";
