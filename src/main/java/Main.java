@@ -8,13 +8,12 @@ import org.springframework.web.bind.annotation.*;
 @EnableAutoConfiguration
 public class Main {
 
-    @RequestMapping("/prueba")
+    @RequestMapping("/portafolio")
     String home2() {
-        return "Hello World - v4!";
+        return "Aqui va mi portafolio";
     }
 
     public static void main(String[] args) throws Exception {
-
         SpringApplication.run(Main.class, args);
     }
 }
