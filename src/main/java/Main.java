@@ -10,7 +10,7 @@ public class Main {
 
     @RequestMapping("/portafolio")
     String home2() {
-        return "Aqui va mi portafolio";
+        return "portafolio";
     }
 
     public static void main(String[] args) throws Exception {
